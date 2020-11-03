@@ -8,21 +8,30 @@
 <body>
     <center>
         <h1>User registration form </h1>
-    <form name="details" action="./feedback.html" method="POST">
-        <label>Name:-</label>
-        <input type="text"><br/>
-        <label>Mobile number:-</label>
-        <input type="number"><br>
+    <form name="details" action="./feedback.js" method="POST">
+        <label>First_Name:-</label>
+        <input type="text">
+        <label>Middle_Name:-</label>
+        <input type="text">
+        <label>Last_Name</label>
+        <input type="text"><br><br>
+        <label>Phone number</label>
+        <input type="number"> <br><br>
         <label>Age:-</label>
-        <input type="number"><br> 
+        <input type="number"><br><br>
+        <p style="display:inline">Company:-</p>
+        <input type="radio" id='c' name="Company">
+        <label for="c">Contentstack</label>
+        <input type="radio" id='r' name="Company">
+        <label for="r">Raw_Engg.</label><br><br>
         <label>Gender</label>
         <select name="">
             <option value="M">Male</option>
             <option value="F">Female</option>
-        </select>
-        <button style="display: block;">Submit</button>
+        </select><br><br>
+        <button>Submit</button>
     </form>
     </center>
-    <script src="./user_details/feedback.js"></script>
+    
 </body>
 </html>
