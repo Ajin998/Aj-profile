@@ -101,94 +101,32 @@ a {
 }
 
 
-/* For Ipad devices */
-@media(max-width: 1150px) {
-	.profile-section img {
-		display: block;
-		width: 20vw;
-		height: 20vh;
-	}
-}
 
-/* For andriod tablets */
-@media(max-width: 820px) {
-	.navigation-bar {
-		display: block;
-	}
-
-	.nav-item-container {
-		display: none;
-	}
-
-	.profile-section img {
-		display: block;
-		width: 60px;
-		height: 80px
-	}
-
-	.skills-container table {
-		display: inline-table;
-		letter-spacing: 4px;
-	}
-
-	.skills-container table td {
-		display: inline-flex;
-		line-height: 2;
-
-	}
-}
-
-/* For Mobile phone */
-@media(max-width:450px) {
-	.hobbie-items {
-		font-size: 14px;
-	}
-
-	.achieve-content {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		text-align: justify;
-	}
-
-	#qual-hr1 {
-		width: 100%;
-	}
-
-	.achieve-content h2 {
-		font-size: 20px;
-	}
-
-}
-
-@media(max-width:320px) {
-	.achieve-content h2 {
-		font-size: 16px;
-	}
-}
-
-/* Responsive-ness upto 320px width. */
-/* --------responive ends--------- */
 .education {
 	margin-top: 50px;
 	margin-bottom: 60px;
 }
 
 .education-container {
-	width: 50%;
+	width: 100%;
 	margin-left: 5rem;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 
+
 .education-container h2 {
 	padding-bottom: 20px;
 }
 
+.education-container #qual-hred {
+	width: 20%;
+	border-color: red;
+}
+
 #qual-hr {
-	width: 40%;
+	width: 35%;
 	border-color: red;
 }
 
@@ -312,3 +250,116 @@ height: auto; */
 	width: 30vh;
 	margin-bottom: 20px;
 }
+
+/* For Ipad devices */
+@media(max-width: 1150px) {
+	.profile-section img {
+		display: block;
+		width: 20vw;
+		height: 20vh;
+	}
+}
+
+/* For andriod tablets */
+@media(max-width: 820px) {
+	.navigation-bar {
+		display: block;
+	}
+
+	.nav-item-container {
+		display: none;
+	}
+
+	.profile-section img {
+		display: block;
+		width: 60px;
+		height: 80px
+	}
+
+	.skills-container table {
+		display: inline-table;
+		letter-spacing: 4px;
+	}
+
+	.skills-container table td {
+		display: inline-flex;
+		line-height: 2;
+
+	}
+}
+
+/* For Mobile phone */
+@media(max-width:450px) {
+	.hobbie-items {
+		font-size: 14px;
+	}
+
+	.achieve-content {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: justify;
+	}
+
+	#qual-hr1 {
+		width: 100%;
+	}
+
+	.achieve-content h2 {
+		font-size: 20px;
+	}
+
+}
+
+@media(max-width:320px) {
+	.education-container h2 {
+		font-size: 16px;
+	}
+
+	.hobbies-container h2 {
+		font-size: 16px;
+	}
+
+	.achieve-content h2 {
+		font-size: 16px;
+	}
+
+	.skills-container h2 {
+		font-size: 16px;
+	}
+
+	.education-container {
+		margin-left: 2em;
+	}
+
+	.hobbies-container {
+		margin-left: 3em;
+	}
+
+	.hobbie-items {
+		font-size: 16px;
+		line-height: 2;
+	}
+
+	.achieve-container {
+		width: 90%;
+		margin-left: 20px;
+	}
+
+	.achieve-container h2 {
+		margin-left: 2em;
+	}
+
+	.skills-container {
+		margin-left: 2em;
+	}
+
+	/* .hobbies-container .hobbie-list {
+		text-align: center;
+
+	} */
+}
+
+/* Responsive-ness upto 320px width. */
+/* --------responive ends--------- */
